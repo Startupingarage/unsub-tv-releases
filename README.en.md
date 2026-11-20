@@ -25,13 +25,91 @@
 
 <br>
 
-[**Why**](#why) &nbsp;·&nbsp; [**Features**](#features) &nbsp;·&nbsp; [**Install**](#install) &nbsp;·&nbsp; [**Remote**](#remote) &nbsp;·&nbsp; [**How it works**](#how-it-works) &nbsp;·&nbsp; [**FAQ**](#faq) &nbsp;·&nbsp; [**Privacy**](#privacy)
+[**🚀 Quick start (install)**](#quick-start) &nbsp;·&nbsp; [**Why**](#why) &nbsp;·&nbsp; [**Features**](#features) &nbsp;·&nbsp; [**Remote**](#remote) &nbsp;·&nbsp; [**How it works**](#how-it-works) &nbsp;·&nbsp; [**FAQ**](#faq) &nbsp;·&nbsp; [**Privacy**](#privacy)
 
 <br>
 
 <img alt="Unsub TV on a TV: home screen, focused movie, movie actions, My shelf, voice search results, more rows" src=".github/readme/tour-en.svg" width="100%">
 
 </div>
+
+<img src=".github/readme/divider.svg" width="100%" alt="">
+
+## Quick start
+
+> [!IMPORTANT]
+> **Every file lives on the [Releases →](https://github.com/Startupingarage/unsub-tv-releases/releases) page.** Take the topmost release and download the file for your device from its **Assets** block.
+
+### What to download
+
+| Device | File in Releases | What it is |
+| :-- | :-- | :-- |
+| 📱 **Android phone** | `UnsubTV-Companion-<version>.apk` | **APK app for your phone.** Installs Unsub TV on the TV, updates it and works as a remote. **Recommended.** |
+| 💻 **Windows PC** | `UnsubTV-Setup-<version>.zip` | **Setup wizard for Windows.** Does the same from a PC. |
+| 📺 **The TV itself** | `UnsubTV-<version>.apk` | The bare TV app. Only for manual updates. |
+| 🔐 | `SHA256SUMS.txt` | Checksums if you want to verify the files. |
+
+> [!TIP]
+> Companion and Setup already carry the latest TV APK inside. No need to download it separately.
+
+### Step 1. One network
+
+Connect the phone or PC and the TV to **the same home router**. A guest network or "client isolation" in the router blocks the connection. A VPN on the phone or PC can block the local network too, so turn it off for the setup.
+
+### Step 2. Get the installer
+
+<details open>
+<summary><b>📱 From an Android phone</b> &nbsp;<sub>recommended</sub></summary>
+<br>
+
+1. Download `UnsubTV-Companion-<version>.apk` from [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases) right on the phone.
+2. Open it. If Android asks for permission to install, allow it only for the app you opened the APK with (browser or Files).
+3. Launch **Unsub TV Companion** and choose **Set up a new TV**.
+
+</details>
+
+<details>
+<summary><b>💻 From a Windows PC</b></summary>
+<br>
+
+1. Download `UnsubTV-Setup-<version>.zip` from [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases).
+2. Extract the **whole** archive: the wizard won't start from inside the ZIP.
+3. Run `UnsubTV-Setup.exe` and choose **New installation**. If Windows warns about an unknown publisher, check the file against `SHA256SUMS.txt` first.
+
+</details>
+
+### Step 3. Connect the TV
+
+The wizard shows where to turn on **Wireless debugging** on the TV. A couple of things people trip over:
+
+- The **connection address** is on the main Wireless debugging screen.
+- The **pairing address and six-digit code** are in a separate "Pair device with pairing code" window. Open it when the wizard asks and keep it open until it's confirmed.
+- Accept the request on the TV.
+
+### Step 4. Done
+
+Wait for the wizard's final screen: "preparing the file" doesn't mean it's installed yet. Optional steps can be skipped and done later during an update. Then press <kbd>Home</kbd> on the remote and you're in Unsub TV. 🍿
+
+<details>
+<summary><b>🔄 How to update</b></summary>
+<br>
+
+Grab the latest Companion or Setup from [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases) and choose **Update Unsub TV**. The new version installs over the old one; settings and lists stay.
+
+</details>
+
+<details>
+<summary><b>🧯 Can't connect?</b></summary>
+<br>
+
+- Make sure both devices are on the same network and it's not guest Wi-Fi.
+- Turn off the VPN on the phone or PC and on the TV while connecting.
+- After a TV reboot the debugging port may change. Refresh the search in the wizard or enter the current address from the debugging screen.
+- If the devices are already paired, you don't need the code again: the connection address is enough.
+
+</details>
+
+**Requirements:** Android TV or Google TV with Android 8.0+ (API 26). The Companion needs Android 8.0+ too.
 
 <img src=".github/readme/divider.svg" width="100%" alt="">
 
@@ -94,51 +172,6 @@ You pay for five to seven services, then spend the evening jumping between five 
 - **Works on its own.** After setup the TV needs neither the phone nor an always-on PC.
 
 </details>
-
-<img src=".github/readme/divider.svg" width="100%" alt="">
-
-## Install
-
-> [!TIP]
-> Connect the phone or PC and the TV to **the same home router** first. Then pick one of the ways below.
-
-<details open>
-<summary><b>📱 Android phone</b> &nbsp;<sub>recommended</sub></summary>
-<br>
-
-1. Download **`UnsubTV-Companion-*.apk`** from [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases) and install it on the phone.
-2. Open it and choose **Set up a new TV**.
-3. Follow the pairing steps on the phone and confirm the requests on the TV.
-
-</details>
-
-<details>
-<summary><b>💻 Windows PC</b></summary>
-<br>
-
-1. Download **`UnsubTV-Setup-*.zip`** from [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases) and extract it.
-2. Run the setup app and choose **New installation**.
-3. Follow the instructions on the PC and the TV.
-
-</details>
-
-<details>
-<summary><b>🔄 Update</b></summary>
-<br>
-
-Grab the latest Companion or Windows Setup from [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases) and choose **Update Unsub TV**. The new version installs over the old one; settings and lists stay.
-
-</details>
-
-<details>
-<summary><b>📦 Manual TV APK</b></summary>
-<br>
-
-**`UnsubTV-*.apk`** is the bare TV app for manual updates. Do the first setup with the Companion or Windows Setup: they also handle permissions and the home screen.
-
-</details>
-
-**Requirements:** Android TV or Google TV with Android 8.0+ (API 26). The Companion needs Android 8.0+ too.
 
 <img src=".github/readme/divider.svg" width="100%" alt="">
 
@@ -209,7 +242,7 @@ Android TV and Google TV boxes and TVs with Android 8.0 or later. The main test 
 - [x] Install and update from a phone or a PC
 - [x] Voice search and search by description
 - [x] My shelf: watch later, continue, watched, don’t suggest
-- [ ] New home screen with a big hero card (next beta)
+- [x] New home screen with a big hero card (beta 6)
 - [ ] Stable 1.2.0
 
 <img src=".github/readme/divider.svg" width="100%" alt="">
