@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3f7f5"/><stop offset="1" stop-color="#e6efea"/></linearGradient>
+  <linearGradient id="btn" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4be3a3"/><stop offset="1" stop-color="#22c4b0"/></linearGradient>
+  <linearGradient id="word" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0a1310"/><stop offset="0.55" stop-color="#0a1310"/><stop offset="1" stop-color="#2fc486"/></linearGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  <clipPath id="card"><rect width="1280" height="420" rx="28"/></clipPath>
+</defs>
+<style>
+  .au { opacity:0.35; animation: drift 16s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }
+  .au2 { animation-duration: 21s; animation-direction: alternate-reverse; }
+  .au3 { animation-duration: 13s; }
+  @keyframes drift { 0% { transform: translate(-60px,10px) scale(1); } 50% { transform: translate(40px,-25px) scale(1.15); } 100% { transform: translate(90px,20px) scale(0.95); } }
+  .tw { fill:#ffffff; opacity:.15; animation: tw 4s ease-in-out infinite; }
+  @keyframes tw { 0%,100% { opacity:.12; } 50% { opacity:.8; } }
+  .pill { animation: pill 9.0s ease-in-out infinite; }
+  @keyframes pill { 0%,8% { opacity:0; transform: translateY(8px); } 14%,52% { opacity:1; transform: translateY(0); } 64%,100% { opacity:0; transform: translateY(-6px); } }
+  .strike { stroke-dasharray:150; stroke-dashoffset:150; animation: strike 9.0s ease-in-out infinite; }
+  @keyframes strike { 0%,26% { stroke-dashoffset:150; } 36%,100% { stroke-dashoffset:0; } }
+  .one { opacity:0; animation: one 9.0s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes one { 0%,62% { opacity:0; transform: scale(.85); } 70%,94% { opacity:1; transform: scale(1); } 100% { opacity:0; transform: scale(1); } }
+  .glow { animation: glow 3.5s ease-in-out infinite; }
+  @keyframes glow { 0%,100% { opacity:.55; } 50% { opacity:1; } }
+  @media (prefers-reduced-motion: reduce) { *, .pill, .strike, .one { animation: none !important; } .one { opacity:1; } }
+</style>
+<g clip-path="url(#card)">
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <ellipse class="au" cx="420" cy="330" rx="420" ry="110" fill="#2fc486" filter="url(#blur)"/>
+  <ellipse class="au au2" cx="900" cy="80" rx="380" ry="90" fill="#1aa3b6" filter="url(#blur)"/>
+  <ellipse class="au au3" cx="1150" cy="380" rx="260" ry="90" fill="#8c74ff" filter="url(#blur)"/>
+  
+</g>
+<rect x="0.5" y="0.5" width="1279" height="419" rx="28" fill="none" stroke="#cddbd4"/>
+<g class="glow"><g transform="translate(72,92) scale(1.0)"><rect x="0" y="0" width="64" height="42" rx="9" fill="none" stroke="#2fc486" stroke-width="5"/><path d="M27 13 L41 21 L27 29 Z" fill="#2fc486"/><path d="M22 52 H42" stroke="#2fc486" stroke-width="5" stroke-linecap="round"/></g></g>
+<text x="160" y="140" font-size="76" font-weight="800" letter-spacing="-2" fill="url(#word)">Unsub TV</text>
+<text x="74" y="222" font-size="34" font-weight="700" fill="#0a1310">One screen instead of seven subscriptions.</text>
+<text x="74" y="266" font-size="22" fill="#4d5f57">Free home screen for Android TV &amp; Google TV</text>
+<g font-size="17" fill="#4d5f57">
+  <rect x="74" y="306" width="132" height="38" rx="19" fill="none" stroke="#cddbd4"/><text x="140" y="331" text-anchor="middle">Android TV</text>
+  <rect x="216" y="306" width="132" height="38" rx="19" fill="none" stroke="#cddbd4"/><text x="282" y="331" text-anchor="middle">Google TV</text>
+  <rect x="358" y="306" width="96" height="38" rx="19" fill="none" stroke="#cddbd4"/><text x="406" y="331" text-anchor="middle">EN · RU</text>
+  <rect x="464" y="306" width="96" height="38" rx="19" fill="none" stroke="#2fc486"/><text x="512" y="331" text-anchor="middle" fill="#2fc486">FREE</text>
+</g>
+<g class="pill" style="animation-delay:0.00s"><rect x="820" y="92" width="184" height="44" rx="22" fill="#ffffff" stroke="#cddbd4"/><text x="912" y="120" text-anchor="middle" font-size="18" fill="#33443c">$15.49 / mo</text><path class="strike" style="animation-delay:0.00s" d="M840 114 H984" stroke="#ff5a6e" stroke-width="3" stroke-linecap="round"/></g><g class="pill" style="animation-delay:0.35s"><rect x="1020" y="92" width="184" height="44" rx="22" fill="#ffffff" stroke="#cddbd4"/><text x="1112" y="120" text-anchor="middle" font-size="18" fill="#33443c">$11.99 / mo</text><path class="strike" style="animation-delay:0.35s" d="M1040 114 H1184" stroke="#ff5a6e" stroke-width="3" stroke-linecap="round"/></g><g class="pill" style="animation-delay:0.70s"><rect x="820" y="154" width="184" height="44" rx="22" fill="#ffffff" stroke="#cddbd4"/><text x="912" y="182" text-anchor="middle" font-size="18" fill="#33443c">$9.99 / mo</text><path class="strike" style="animation-delay:0.70s" d="M840 176 H984" stroke="#ff5a6e" stroke-width="3" stroke-linecap="round"/></g><g class="pill" style="animation-delay:1.05s"><rect x="1020" y="154" width="184" height="44" rx="22" fill="#ffffff" stroke="#cddbd4"/><text x="1112" y="182" text-anchor="middle" font-size="18" fill="#33443c">$13.99 / mo</text><path class="strike" style="animation-delay:1.05s" d="M1040 176 H1184" stroke="#ff5a6e" stroke-width="3" stroke-linecap="round"/></g><g class="pill" style="animation-delay:1.40s"><rect x="820" y="216" width="184" height="44" rx="22" fill="#ffffff" stroke="#cddbd4"/><text x="912" y="244" text-anchor="middle" font-size="18" fill="#33443c">$7.99 / mo</text><path class="strike" style="animation-delay:1.40s" d="M840 238 H984" stroke="#ff5a6e" stroke-width="3" stroke-linecap="round"/></g><g class="pill" style="animation-delay:1.75s"><rect x="1020" y="216" width="184" height="44" rx="22" fill="#ffffff" stroke="#cddbd4"/><text x="1112" y="244" text-anchor="middle" font-size="18" fill="#33443c">$5.99 / mo</text><path class="strike" style="animation-delay:1.75s" d="M1040 238 H1184" stroke="#ff5a6e" stroke-width="3" stroke-linecap="round"/></g>
+<g class="one"><rect x="868" y="290" width="288" height="64" rx="32" fill="url(#btn)"/><g transform="translate(892,304) scale(0.62)"><rect x="0" y="0" width="64" height="42" rx="9" fill="none" stroke="#06120c" stroke-width="5"/><path d="M27 13 L41 21 L27 29 Z" fill="#06120c"/><path d="M22 52 H42" stroke="#06120c" stroke-width="5" stroke-linecap="round"/></g><text x="1050" y="331" text-anchor="middle" font-size="24" font-weight="700" fill="#06120c">1 screen · $0</text></g>
+</svg>

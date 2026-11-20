@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="76" viewBox="0 0 340 76" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+  <linearGradient id="b" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4be3a3"/><stop offset="1" stop-color="#22c4b0"/></linearGradient>
+  <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <clipPath id="c"><rect width="340" height="76" rx="18"/></clipPath>
+</defs>
+<style>
+  .shine { animation: sh 5s ease-in-out infinite; animation-delay: 1.2s; }
+  @keyframes sh { 0%,60% { transform: translateX(-200px); } 85%,100% { transform: translateX(400px); } }
+  @media (prefers-reduced-motion: reduce) { .shine { animation:none; opacity:0; } }
+</style>
+<g clip-path="url(#c)">
+  <rect width="340" height="76" fill="#1a2420"/>
+  <rect x="0.5" y="0.5" width="339" height="75" rx="18" fill="none" stroke="#2f3d37"/>
+  <rect class="shine" x="0" y="0" width="120" height="76" fill="url(#sh)" transform="translate(-200,0)"/>
+</g>
+<g transform="translate(24,24.0)"><rect x="2" y="5" width="24" height="16" rx="3" fill="none" stroke="#3ddc97" stroke-width="2.4"/><path d="M11 9.5 L18 13 L11 16.5 Z" fill="#3ddc97"/></g>
+<text x="70" y="34" font-size="22" font-weight="700" fill="#eaf3ee">TV APK</text>
+<text x="70" y="57" font-size="15" fill="#9fb1a8">manual update</text>
+</svg>

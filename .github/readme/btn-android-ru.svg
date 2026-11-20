@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="76" viewBox="0 0 340 76" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+  <linearGradient id="b" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4be3a3"/><stop offset="1" stop-color="#22c4b0"/></linearGradient>
+  <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <clipPath id="c"><rect width="340" height="76" rx="18"/></clipPath>
+</defs>
+<style>
+  .shine { animation: sh 5s ease-in-out infinite; animation-delay: 0.0s; }
+  @keyframes sh { 0%,60% { transform: translateX(-200px); } 85%,100% { transform: translateX(400px); } }
+  @media (prefers-reduced-motion: reduce) { .shine { animation:none; opacity:0; } }
+</style>
+<g clip-path="url(#c)">
+  <rect width="340" height="76" fill="url(#b)"/>
+  
+  <rect class="shine" x="0" y="0" width="120" height="76" fill="url(#sh)" transform="translate(-200,0)"/>
+</g>
+<g transform="translate(24,24.0)"><rect x="7" y="2" width="14" height="24" rx="3" fill="none" stroke="#06120c" stroke-width="2.4"/><circle cx="14" cy="21.5" r="1.6" fill="#06120c"/></g>
+<text x="70" y="34" font-size="22" font-weight="700" fill="#06120c">Телефон Android</text>
+<text x="70" y="57" font-size="15" fill="#0f3a28">Companion APK · главный путь</text>
+</svg>
