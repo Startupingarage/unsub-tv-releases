@@ -2,235 +2,235 @@
 
 <a href="#readme">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset=".github/readme/hero-en-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset=".github/readme/hero-en-light.svg">
-    <img alt="Unsub TV: one screen instead of seven subscriptions" src=".github/readme/hero-en-dark.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset=".github/readme/hero-ru-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset=".github/readme/hero-ru-light.svg">
+    <img alt="Unsub TV: один экран вместо семи подписок" src=".github/readme/hero-ru-dark.svg" width="100%">
   </picture>
 </a>
 
-**English** · [Русский](README.ru.md)
+**Русский** · [English](README.en.md)
 
-<a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Latest version" src="https://img.shields.io/github/v/release/Startupingarage/unsub-tv-releases?include_prereleases&style=for-the-badge&label=version&color=3ddc97&labelColor=0d1311"></a>
-<a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/Startupingarage/unsub-tv-releases/total?style=for-the-badge&label=downloads&color=1fb5c9&labelColor=0d1311"></a>
+<a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Последняя версия" src="https://img.shields.io/github/v/release/Startupingarage/unsub-tv-releases?include_prereleases&style=for-the-badge&label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=3ddc97&labelColor=0d1311"></a>
+<a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Скачивания" src="https://img.shields.io/github/downloads/Startupingarage/unsub-tv-releases/total?style=for-the-badge&label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F&color=1fb5c9&labelColor=0d1311"></a>
 <img alt="Android TV 8.0+" src="https://img.shields.io/badge/Android%20TV-8.0%2B-7b5cff?style=for-the-badge&labelColor=0d1311">
-<img alt="Price: free" src="https://img.shields.io/badge/price-%240%20forever-3ddc97?style=for-the-badge&labelColor=0d1311">
+<img alt="Цена: бесплатно" src="https://img.shields.io/badge/%D1%86%D0%B5%D0%BD%D0%B0-0%20%E2%82%BD%20%D0%BD%D0%B0%D0%B2%D1%81%D0%B5%D0%B3%D0%B4%D0%B0-3ddc97?style=for-the-badge&labelColor=0d1311">
 
 <br><br>
 
-<a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Download for Android phone" src=".github/readme/btn-android-en.svg" height="56"></a>&nbsp;
-<a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Download for Windows PC" src=".github/readme/btn-windows-en.svg" height="56"></a>&nbsp;
-<a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Download the TV APK" src=".github/readme/btn-tv-en.svg" height="56"></a>
+<a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Скачать для телефона Android" src=".github/readme/btn-android-ru.svg" height="56"></a>&nbsp;
+<a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Скачать для ПК с Windows" src=".github/readme/btn-windows-ru.svg" height="56"></a>&nbsp;
+<a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Скачать TV APK" src=".github/readme/btn-tv-ru.svg" height="56"></a>
 
-<sub>Public beta · the phone or PC and the TV must be on the same home network</sub>
-
-<br>
-
-[**Why**](#why) &nbsp;·&nbsp; [**Features**](#features) &nbsp;·&nbsp; [**Install**](#install) &nbsp;·&nbsp; [**Remote**](#remote) &nbsp;·&nbsp; [**How it works**](#how-it-works) &nbsp;·&nbsp; [**FAQ**](#faq) &nbsp;·&nbsp; [**Privacy**](#privacy)
+<sub>Открытая бета · телефон или ПК и телевизор должны быть в одной домашней сети</sub>
 
 <br>
 
-<img alt="Unsub TV on a TV: home screen, focused movie, movie actions, My shelf, voice search results, more rows" src=".github/readme/tour-en.svg" width="100%">
+[**Зачем**](#зачем) &nbsp;·&nbsp; [**Возможности**](#возможности) &nbsp;·&nbsp; [**Установка**](#установка) &nbsp;·&nbsp; [**Пульт**](#пульт) &nbsp;·&nbsp; [**Как устроено**](#как-устроено) &nbsp;·&nbsp; [**Вопросы**](#вопросы) &nbsp;·&nbsp; [**Приватность**](#приватность)
+
+<br>
+
+<img alt="Unsub TV на телевизоре: главная, фильм в фокусе, действия с фильмом, мои списки, результаты голосового поиска, нижние ряды" src=".github/readme/tour-ru.svg" width="100%">
 
 </div>
 
 <img src=".github/readme/divider.svg" width="100%" alt="">
 
-## Why
+## Зачем
 
-You pay for five to seven services, then spend the evening jumping between five to seven apps looking for one film. After work you just want to sit down and press play.
+Платишь за пять–семь сервисов, а вечером скачешь между пятью–семью приложениями в поисках одного фильма. А после работы хочется просто сесть и нажать «плей».
 
-**Unsub TV is one home screen for all of it.** YouTube recommendations, films, your apps and your own lists live on one screen you can drive with a plain remote. No Unsub account, no ads, no subscription. It is free and stays free; the project lives on donations only.
+**Unsub TV — один главный экран для всего этого.** Рекомендации YouTube, фильмы, твои приложения и твои списки на одном экране, и всё это управляется обычным пультом. Без аккаунта Unsub, без рекламы, без подписки. Бесплатно и навсегда: проект живёт только на донатах.
 
 <img src=".github/readme/divider.svg" width="100%" alt="">
 
-## Features
+## Возможности
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <img src=".github/readme/shots/en/home.jpg" alt="Home screen">
-      <h3>🏠 One home screen</h3>
-      Recommendations from YouTube and films next to your favorite apps. Focus glows, so you see it from the couch.
+      <img src=".github/readme/shots/ru/home.jpg" alt="Главный экран">
+      <h3>🏠 Один главный экран</h3>
+      Рекомендации YouTube и фильмы рядом с любимыми приложениями. Фокус светится — видно с дивана.
     </td>
     <td width="33%" valign="top">
-      <img src=".github/readme/shots/en/voice-results.jpg" alt="Voice search results">
-      <h3>🎙️ Just say it</h3>
-      Press the mic on the remote and say a title, or describe a mood: <i>“classic sci-fi”</i>, <i>“a comedy for tonight”</i>.
+      <img src=".github/readme/shots/ru/voice-results.jpg" alt="Результаты голосового поиска">
+      <h3>🎙️ Просто скажи</h3>
+      Жми микрофон на пульте и назови фильм или опиши настроение: <i>«старая фантастика»</i>, <i>«комедия на вечер»</i>.
     </td>
     <td width="33%" valign="top">
-      <img src=".github/readme/shots/en/lists.jpg" alt="My shelf">
-      <h3>🔖 My shelf</h3>
-      Watch later, continue watching, watched and “don’t suggest”. Everything stays on the TV.
+      <img src=".github/readme/shots/ru/lists.jpg" alt="Мои списки">
+      <h3>🔖 Мои списки</h3>
+      «На потом», «Продолжить», «Просмотрено» и «Не предлагать». Всё хранится на телевизоре.
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top">
-      <img src=".github/readme/shots/en/movie.jpg" alt="Movie card actions">
-      <h3>⚡ One click actions</h3>
-      Watch, save for later, mark as watched, hide, find similar. Hold <kbd>OK</kbd> on any card.
+      <img src=".github/readme/shots/ru/movie.jpg" alt="Действия с фильмом">
+      <h3>⚡ Всё в один клик</h3>
+      Смотреть, отложить, отметить просмотренным, скрыть, найти похожее. Удерживай <kbd>OK</kbd> на любой карточке.
     </td>
     <td width="33%" valign="top">
-      <img src=".github/readme/shots/en/companion.jpg" alt="Android Companion">
-      <h3>📱 Phone as a remote</h3>
-      The Companion installs and updates the TV app, types searches for you and opens your lists.
+      <img src=".github/readme/shots/ru/companion.jpg" alt="Android Companion">
+      <h3>📱 Телефон вместо пульта</h3>
+      Companion ставит и обновляет приложение на ТВ, набирает запросы за тебя и открывает списки.
     </td>
     <td width="33%" valign="top">
-      <img src=".github/readme/shots/en/settings.jpg" alt="Settings">
-      <h3>🛠️ Yours to tune</h3>
-      Home screen, search, screen and sound, remote and sleep timer. English and Russian out of the box.
+      <img src=".github/readme/shots/ru/settings.jpg" alt="Настройки">
+      <h3>🛠️ Настрой под себя</h3>
+      Главный экран, поиск, экран и звук, пульт и таймер сна. Русский и английский из коробки.
     </td>
   </tr>
 </table>
 
 <details>
-<summary><b>Everything else it does</b></summary>
+<summary><b>Что ещё умеет</b></summary>
 <br>
 
-- **Search by description.** Add your own Groq key and ask for “space sci-fi from the 70s”. Search by title works without it.
-- **Type from your phone.** Scan the QR on the TV and send text from the phone instead of typing with arrows.
-- **Updates keep your stuff.** A new version installs over the old one; settings, lists and keys stay.
-- **Easy way back.** One switch in settings returns the stock home screen of your TV.
-- **Light on old boxes.** Static background, limited downloads and no focus zoom when RAM is low.
-- **Works on its own.** After setup the TV needs neither the phone nor an always-on PC.
+- **Подбор по описанию.** Добавь свой ключ Groq и попроси «космическую фантастику 70-х». Поиск по названию работает и без ключа.
+- **Набор с телефона.** Отсканируй QR на телевизоре и отправь текст с телефона вместо набора стрелками.
+- **Обновления не ломают твоё.** Новая версия ставится поверх старой; настройки, списки и ключи остаются.
+- **Лёгкий путь назад.** Один переключатель в настройках возвращает родной главный экран телевизора.
+- **Бережёт старые приставки.** Статичный фон, ограниченные загрузки и без увеличения фокуса при малом объёме памяти.
+- **Работает сам.** После настройки телевизору не нужны ни телефон, ни постоянно включённый ПК.
 
 </details>
 
 <img src=".github/readme/divider.svg" width="100%" alt="">
 
-## Install
+## Установка
 
 > [!TIP]
-> Connect the phone or PC and the TV to **the same home router** first. Then pick one of the ways below.
+> Сначала подключи телефон или ПК и телевизор **к одному домашнему роутеру**. Потом выбери способ ниже.
 
 <details open>
-<summary><b>📱 Android phone</b> &nbsp;<sub>recommended</sub></summary>
+<summary><b>📱 Телефон на Android</b> &nbsp;<sub>основной способ</sub></summary>
 <br>
 
-1. Download **`UnsubTV-Companion-*.apk`** from [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases) and install it on the phone.
-2. Open it and choose **Set up a new TV**.
-3. Follow the pairing steps on the phone and confirm the requests on the TV.
+1. Скачай **`UnsubTV-Companion-*.apk`** со страницы [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases) и установи на телефон.
+2. Открой и выбери **«Установить на новый ТВ»**.
+3. Пройди сопряжение на телефоне и подтверди запросы на телевизоре.
 
 </details>
 
 <details>
-<summary><b>💻 Windows PC</b></summary>
+<summary><b>💻 ПК с Windows</b></summary>
 <br>
 
-1. Download **`UnsubTV-Setup-*.zip`** from [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases) and extract it.
-2. Run the setup app and choose **New installation**.
-3. Follow the instructions on the PC and the TV.
+1. Скачай **`UnsubTV-Setup-*.zip`** со страницы [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases) и распакуй.
+2. Запусти мастер и выбери **«Новая установка»**.
+3. Следуй инструкциям на ПК и телевизоре.
 
 </details>
 
 <details>
-<summary><b>🔄 Update</b></summary>
+<summary><b>🔄 Обновление</b></summary>
 <br>
 
-Grab the latest Companion or Windows Setup from [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases) and choose **Update Unsub TV**. The new version installs over the old one; settings and lists stay.
+Скачай свежий Companion или Windows Setup со страницы [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases) и выбери **«Обновить Unsub TV»**. Новая версия ставится поверх старой; настройки и списки сохраняются.
 
 </details>
 
 <details>
-<summary><b>📦 Manual TV APK</b></summary>
+<summary><b>📦 TV APK вручную</b></summary>
 <br>
 
-**`UnsubTV-*.apk`** is the bare TV app for manual updates. Do the first setup with the Companion or Windows Setup: they also handle permissions and the home screen.
+**`UnsubTV-*.apk`** — голое приложение для ТВ, для ручного обновления. Первую настройку делай через Companion или Windows Setup: они заодно выдают разрешения и включают главный экран.
 
 </details>
 
-**Requirements:** Android TV or Google TV with Android 8.0+ (API 26). The Companion needs Android 8.0+ too.
+**Требования:** Android TV или Google TV с Android 8.0+ (API 26). Для Companion тоже нужен Android 8.0+.
 
 <img src=".github/readme/divider.svg" width="100%" alt="">
 
-## Remote
+## Пульт
 
-| Press | What happens |
+| Кнопка | Что происходит |
 | :-- | :-- |
-| <kbd>🎤</kbd> | Voice search from anywhere |
-| <kbd>OK</kbd> | Open the card |
-| <kbd>OK</kbd> *hold* | More actions: later, watched, hide, similar |
-| <kbd>▼</kbd> | Scroll down to continue watching and watch later |
-| <kbd>Home</kbd> | Back to Unsub TV |
+| <kbd>🎤</kbd> | Голосовой поиск откуда угодно |
+| <kbd>OK</kbd> | Открыть карточку |
+| <kbd>OK</kbd> *удерживать* | Ещё действия: на потом, просмотрено, скрыть, похожее |
+| <kbd>▼</kbd> | Вниз — «Продолжить просмотр» и «На потом» |
+| <kbd>Home</kbd> | Назад в Unsub TV |
 
 <img src=".github/readme/divider.svg" width="100%" alt="">
 
-## How it works
+## Как устроено
 
 ```mermaid
 flowchart LR
-    phone["📱 Companion<br/>Android phone"] -- "install · update · remote" --> tv
-    pc["💻 Windows Setup"] -- "install · update" --> tv
-    tv(["📺 Unsub TV<br/>your home screen"])
-    yt["▶️ YouTube"] -- "your recommendations" --> tv
-    films["🎬 Film catalog"] -- "search · posters" --> tv
-    rel[("GitHub Releases")] -. "new versions" .-> phone
-    rel -. "new versions" .-> pc
+    phone["📱 Companion<br/>телефон Android"] -- "установка · обновление · пульт" --> tv
+    pc["💻 Windows Setup"] -- "установка · обновление" --> tv
+    tv(["📺 Unsub TV<br/>твой главный экран"])
+    yt["▶️ YouTube"] -- "твои рекомендации" --> tv
+    films["🎬 Каталог фильмов"] -- "поиск · постеры" --> tv
+    rel[("GitHub Releases")] -. "новые версии" .-> phone
+    rel -. "новые версии" .-> pc
 ```
 
 <img src=".github/readme/divider.svg" width="100%" alt="">
 
-## FAQ
+## Вопросы
 
 <details>
-<summary><b>Is it really free?</b></summary>
+<summary><b>Это правда бесплатно?</b></summary>
 <br>
-Yes. No subscription, no ads, no paid tier. The project lives on donations only.
+Да. Ни подписки, ни рекламы, ни платной версии. Проект живёт только на донатах.
 </details>
 
 <details>
-<summary><b>Will I lose my stock TV home screen?</b></summary>
+<summary><b>Я не потеряю родной экран телевизора?</b></summary>
 <br>
-No. <b>Settings → Home screen → Home screen → Factory</b> brings it back. To return, open Unsub TV from the app list and switch it back. Apps and accounts stay where they are.
+Нет. <b>Настройки → Главный экран → Главный экран → Заводской</b> возвращает его. Чтобы вернуться обратно, открой Unsub TV из списка приложений и переключи назад. Приложения и аккаунты остаются на месте.
 </details>
 
 <details>
-<summary><b>Does the TV need my phone or PC to stay on?</b></summary>
+<summary><b>Телефон или ПК должны быть всё время включены?</b></summary>
 <br>
-No. They are needed for setup and updates. After that the TV works on its own.
+Нет. Они нужны для установки и обновлений. Дальше телевизор работает сам.
 </details>
 
 <details>
-<summary><b>Do I need a Groq key?</b></summary>
+<summary><b>Нужен ли ключ Groq?</b></summary>
 <br>
-No. Search by title and voice work without it. The key only enables search by description, and you can add it later during an update.
+Нет. Поиск по названию и голосом работает без него. Ключ нужен только для подбора по описанию, и его можно добавить позже при обновлении.
 </details>
 
 <details>
-<summary><b>Which devices are supported?</b></summary>
+<summary><b>Какие устройства поддерживаются?</b></summary>
 <br>
-Android TV and Google TV boxes and TVs with Android 8.0 or later. The main test device is a Xiaomi TV Box S (3rd gen) with Android 14.
+Приставки и телевизоры на Android TV и Google TV с Android 8.0 или новее. Основное тестовое устройство — Xiaomi TV Box S (3-го поколения) с Android 14.
 </details>
 
 <img src=".github/readme/divider.svg" width="100%" alt="">
 
-## Roadmap
+## Планы
 
-- [x] English and Russian in the TV app, Android Companion and Windows Setup
-- [x] Install and update from a phone or a PC
-- [x] Voice search and search by description
-- [x] My shelf: watch later, continue, watched, don’t suggest
-- [ ] New home screen with a big hero card (next beta)
-- [ ] Stable 1.2.0
+- [x] Русский и английский в приложении для ТВ, Android Companion и Windows Setup
+- [x] Установка и обновление с телефона или ПК
+- [x] Голосовой поиск и подбор по описанию
+- [x] Мои списки: на потом, продолжить, просмотрено, не предлагать
+- [ ] Новый главный экран с большой карточкой (следующая бета)
+- [ ] Стабильная 1.2.0
 
 <img src=".github/readme/divider.svg" width="100%" alt="">
 
-## Privacy
+## Приватность
 
-Unsub TV keeps settings, lists, recently opened titles and cached recommendations on the TV. If you add a Groq key, the app encrypts it with Android Keystore and sends the request text to Groq only when you use search by description. Voice input uses the TV’s system speech recognizer.
+Unsub TV хранит настройки, списки, недавно открытые материалы и кеш рекомендаций на телевизоре. Если добавить ключ Groq, приложение зашифрует его через Android Keystore и будет отправлять текст запроса в Groq только при подборе по описанию. Голосовой ввод работает через системное распознавание речи телевизора.
 
-## Support
+## Поддержать
 
-Unsub TV is free and always will be. If it saved you a subscription or two, ⭐ star the repo and tell a friend.
+Unsub TV бесплатный и таким останется. Если он сэкономил тебе пару подписок — поставь ⭐ репозиторию и расскажи другу.
 
-## License and credits
+## Лицензия и благодарности
 
-Unsub TV is proprietary. All rights reserved. Third-party components keep their own licenses.
+Unsub TV распространяется по закрытой лицензии. Все права защищены. Сторонние компоненты сохраняют свои лицензии.
 
-Screenshots use demonstration data. Nature and space photographs from Wikimedia Commons: Kevin M. Gill, Jakub Hałun (CC BY 4.0); Michal Klajban, Giles Laurent, Gerda Arendt (CC BY-SA 4.0); Sonse (CC BY 2.0); NASA (public domain). The showcase film posters are in the public domain.
+На скриншотах демонстрационные данные. Природные и космические кадры с Wikimedia Commons: Kevin M. Gill, Jakub Hałun (CC BY 4.0); Michal Klajban, Giles Laurent, Gerda Arendt (CC BY-SA 4.0); Sonse (CC BY 2.0); NASA (общественное достояние). Постеры фильмов в витрине — общественное достояние.
 
 <div align="center">
 <br>
 <img src=".github/readme/divider.svg" width="60%" alt="">
 <br>
-<sub>Made for evenings on the couch · <a href="#readme">back to top ↑</a></sub>
+<sub>Сделано для вечеров на диване · <a href="#readme">наверх ↑</a></sub>
 </div>
