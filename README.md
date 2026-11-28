@@ -10,18 +10,18 @@
 
 **Русский** · [English](README.en.md)
 
-<a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Последняя версия" src="https://img.shields.io/github/v/release/Startupingarage/unsub-tv-releases?include_prereleases&style=for-the-badge&label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=3ddc97&labelColor=0d1311"></a>
+<a href="https://github.com/Startupingarage/unsub-tv-releases/releases/latest"><img alt="Последняя стабильная версия" src="https://img.shields.io/github/v/release/Startupingarage/unsub-tv-releases?style=for-the-badge&label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=3ddc97&labelColor=0d1311"></a>
 <a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Скачивания" src="https://img.shields.io/github/downloads/Startupingarage/unsub-tv-releases/total?style=for-the-badge&label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F&color=1fb5c9&labelColor=0d1311"></a>
 <img alt="Android TV 8.0+" src="https://img.shields.io/badge/Android%20TV-8.0%2B-7b5cff?style=for-the-badge&labelColor=0d1311">
 <img alt="Цена: бесплатно" src="https://img.shields.io/badge/%D1%86%D0%B5%D0%BD%D0%B0-0%20%E2%82%BD%20%D0%BD%D0%B0%D0%B2%D1%81%D0%B5%D0%B3%D0%B4%D0%B0-3ddc97?style=for-the-badge&labelColor=0d1311">
 
 <br><br>
 
-<a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Скачать для телефона Android" src=".github/readme/btn-android-ru.svg" height="56"></a>&nbsp;
-<a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Скачать для ПК с Windows" src=".github/readme/btn-windows-ru.svg" height="56"></a>&nbsp;
-<a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Скачать TV APK" src=".github/readme/btn-tv-ru.svg" height="56"></a>
+<a href="https://github.com/Startupingarage/unsub-tv-releases/releases/download/v3.1.0/UnsubTV-Companion-0.2.42.apk"><img alt="Скачать для телефона Android" src=".github/readme/btn-android-ru.svg" height="56"></a>&nbsp;
+<a href="https://github.com/Startupingarage/unsub-tv-releases/releases/download/v3.1.0/UnsubTV-Setup-1.1.49.zip"><img alt="Скачать для ПК с Windows" src=".github/readme/btn-windows-ru.svg" height="56"></a>&nbsp;
+<a href="https://github.com/Startupingarage/unsub-tv-releases/releases/download/v3.1.0/UnsubTV-3.1.0-154.apk"><img alt="Скачать TV APK" src=".github/readme/btn-tv-ru.svg" height="56"></a>
 
-<sub>Открытая бета · телефон или ПК и телевизор должны быть в одной домашней сети</sub>
+<sub>Телефон или ПК и телевизор должны быть в одной домашней сети</sub>
 
 <br>
 
@@ -38,7 +38,7 @@
 ## Быстрый старт
 
 > [!IMPORTANT]
-> **Все файлы лежат на странице [Releases →](https://github.com/Startupingarage/unsub-tv-releases/releases)**. Бери самый верхний выпуск и в блоке **Assets** скачай файл под своё устройство.
+> **В последнем стабильном выпуске собраны установщики, заметки и SHA-256.** [Открыть выпуск](https://github.com/Startupingarage/unsub-tv-releases/releases/latest)
 
 ### Что скачать
 
@@ -62,7 +62,7 @@
 <summary><b>📱 С телефона Android</b> &nbsp;<sub>основной способ</sub></summary>
 <br>
 
-1. Скачай `UnsubTV-Companion-<версия>.apk` из [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases) прямо на телефон.
+1. Скачай `UnsubTV-Companion-<версия>.apk` из [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases/latest) прямо на телефон.
 2. Открой файл. Если Android спросит разрешение на установку, разреши его только тому приложению, через которое открыл APK (браузер или «Файлы»).
 3. Запусти **Unsub TV Companion** и выбери **«Установить на новый ТВ»**.
 
@@ -72,7 +72,7 @@
 <summary><b>💻 С компьютера Windows</b></summary>
 <br>
 
-1. Скачай `UnsubTV-Setup-<версия>.zip` из [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases).
+1. Скачай `UnsubTV-Setup-<версия>.zip` из [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases/latest).
 2. Распакуй архив **полностью**: из ZIP напрямую мастер не запустится.
 3. Запусти `UnsubTV-Setup.exe` и выбери **«Новая установка»**. Если Windows предупредит о неизвестном издателе, сначала сверь контрольную сумму из `SHA256SUMS.txt`.
 
@@ -94,7 +94,7 @@
 <summary><b>🔄 Как обновиться</b></summary>
 <br>
 
-Скачай свежий Companion или Setup из [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases) и выбери **«Обновить Unsub TV»**. Новая версия ставится поверх старой, настройки и списки сохраняются.
+Скачай свежий Companion или Setup из [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases/latest) и выбери **«Обновить Unsub TV»**. Новая версия ставится поверх старой, настройки и списки сохраняются.
 
 </details>
 
@@ -242,8 +242,7 @@ flowchart LR
 - [x] Установка и обновление с телефона или ПК
 - [x] Голосовой поиск и подбор по описанию
 - [x] Мои списки: на потом, продолжить, просмотрено, не предлагать
-- [x] Новый главный экран с большой карточкой (beta 6)
-- [ ] Стабильная 1.2.0
+- [x] Новый главный экран с большой карточкой
 
 <img src=".github/readme/divider.svg" width="100%" alt="">
 

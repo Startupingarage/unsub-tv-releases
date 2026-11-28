@@ -10,18 +10,18 @@
 
 [Русский](README.md) · **English**
 
-<a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Latest version" src="https://img.shields.io/github/v/release/Startupingarage/unsub-tv-releases?include_prereleases&style=for-the-badge&label=version&color=3ddc97&labelColor=0d1311"></a>
+<a href="https://github.com/Startupingarage/unsub-tv-releases/releases/latest"><img alt="Latest stable version" src="https://img.shields.io/github/v/release/Startupingarage/unsub-tv-releases?style=for-the-badge&label=version&color=3ddc97&labelColor=0d1311"></a>
 <a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/Startupingarage/unsub-tv-releases/total?style=for-the-badge&label=downloads&color=1fb5c9&labelColor=0d1311"></a>
 <img alt="Android TV 8.0+" src="https://img.shields.io/badge/Android%20TV-8.0%2B-7b5cff?style=for-the-badge&labelColor=0d1311">
 <img alt="Price: free" src="https://img.shields.io/badge/price-%240%20forever-3ddc97?style=for-the-badge&labelColor=0d1311">
 
 <br><br>
 
-<a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Download for Android phone" src=".github/readme/btn-android-en.svg" height="56"></a>&nbsp;
-<a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Download for Windows PC" src=".github/readme/btn-windows-en.svg" height="56"></a>&nbsp;
-<a href="https://github.com/Startupingarage/unsub-tv-releases/releases"><img alt="Download the TV APK" src=".github/readme/btn-tv-en.svg" height="56"></a>
+<a href="https://github.com/Startupingarage/unsub-tv-releases/releases/download/v3.1.0/UnsubTV-Companion-0.2.42.apk"><img alt="Download for Android phone" src=".github/readme/btn-android-en.svg" height="56"></a>&nbsp;
+<a href="https://github.com/Startupingarage/unsub-tv-releases/releases/download/v3.1.0/UnsubTV-Setup-1.1.49.zip"><img alt="Download for Windows PC" src=".github/readme/btn-windows-en.svg" height="56"></a>&nbsp;
+<a href="https://github.com/Startupingarage/unsub-tv-releases/releases/download/v3.1.0/UnsubTV-3.1.0-154.apk"><img alt="Download the TV APK" src=".github/readme/btn-tv-en.svg" height="56"></a>
 
-<sub>Public beta · the phone or PC and the TV must be on the same home network</sub>
+<sub>The phone or PC and the TV must be on the same home network</sub>
 
 <br>
 
@@ -38,7 +38,7 @@
 ## Quick start
 
 > [!IMPORTANT]
-> **Every file lives on the [Releases →](https://github.com/Startupingarage/unsub-tv-releases/releases) page.** Take the topmost release and download the file for your device from its **Assets** block.
+> **The latest stable release includes installers, notes, and SHA-256 checksums.** [Open the release](https://github.com/Startupingarage/unsub-tv-releases/releases/latest)
 
 ### What to download
 
@@ -62,7 +62,7 @@ Connect the phone or PC and the TV to **the same home router**. A guest network 
 <summary><b>📱 From an Android phone</b> &nbsp;<sub>recommended</sub></summary>
 <br>
 
-1. Download `UnsubTV-Companion-<version>.apk` from [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases) right on the phone.
+1. Download `UnsubTV-Companion-<version>.apk` from [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases/latest) right on the phone.
 2. Open it. If Android asks for permission to install, allow it only for the app you opened the APK with (browser or Files).
 3. Launch **Unsub TV Companion** and choose **Set up a new TV**.
 
@@ -72,7 +72,7 @@ Connect the phone or PC and the TV to **the same home router**. A guest network 
 <summary><b>💻 From a Windows PC</b></summary>
 <br>
 
-1. Download `UnsubTV-Setup-<version>.zip` from [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases).
+1. Download `UnsubTV-Setup-<version>.zip` from [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases/latest).
 2. Extract the **whole** archive: the wizard won't start from inside the ZIP.
 3. Run `UnsubTV-Setup.exe` and choose **New installation**. If Windows warns about an unknown publisher, check the file against `SHA256SUMS.txt` first.
 
@@ -94,7 +94,7 @@ Wait for the wizard's final screen: "preparing the file" doesn't mean it's insta
 <summary><b>🔄 How to update</b></summary>
 <br>
 
-Grab the latest Companion or Setup from [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases) and choose **Update Unsub TV**. The new version installs over the old one; settings and lists stay.
+Grab the latest Companion or Setup from [Releases](https://github.com/Startupingarage/unsub-tv-releases/releases/latest) and choose **Update Unsub TV**. The new version installs over the old one; settings and lists stay.
 
 </details>
 
@@ -242,8 +242,7 @@ Android TV and Google TV boxes and TVs with Android 8.0 or later. The main test 
 - [x] Install and update from a phone or a PC
 - [x] Voice search and search by description
 - [x] My shelf: watch later, continue, watched, don’t suggest
-- [x] New home screen with a big hero card (beta 6)
-- [ ] Stable 1.2.0
+- [x] New home screen with a big hero card
 
 <img src=".github/readme/divider.svg" width="100%" alt="">
 
